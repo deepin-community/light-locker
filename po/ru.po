@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Alexander Saprykin <xelfium@gmail.com>, 2009
+# Leonid Kanter <leon@asplinux.ru>, 2006
+# Sergio Kvantos <kvantos@plotinka.ru>, 2006
+# TotalCaesar659 <x24cm5b8c54q6szxw@yandex.ru>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: light-locker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-25 13:44+0100\n"
+"PO-Revision-Date: 2017-07-05 21:52+0000\n"
+"Last-Translator: TotalCaesar659 <x24cm5b8c54q6szxw@yandex.ru>\n"
+"Language-Team: Russian (http://www.transifex.com/the_cavalry/light-locker/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../src/light-locker-command.c:56
+msgid "Query the state of the locker"
+msgstr "Запрос состояния блокировки"
+
+#: ../src/light-locker-command.c:58
+msgid "Query the length of time the locker has been active"
+msgstr "Запрос времени активности блокировки"
+
+#: ../src/light-locker-command.c:60
+msgid "Tells the running locker process to lock the screen immediately"
+msgstr "Указывает запущенному процессу блокировки заблокировать экран немедленно"
+
+#: ../src/light-locker-command.c:62
+msgid "Turn the screensaver on (blank the screen)"
+msgstr "Включает хранитель экрана (белый цвет экрана)"
+
+#: ../src/light-locker-command.c:64
+msgid "If the screensaver is active then deactivate it (un-blank the screen)"
+msgstr "Если хранитель экрана активен, то деактивируйте его (убрать белый цвет экрана)"
+
+#: ../src/light-locker-command.c:66
+msgid "Poke the running locker to simulate user activity"
+msgstr "Указать запущенному процессу блокировки симулировать действия пользователя"
+
+#: ../src/light-locker-command.c:68
+msgid ""
+"Inhibit the screensaver from activating. Terminate the light-locker-command "
+"process to end inhibition."
+msgstr "Препятствует активации хранителя экрана. Для отключения выполните процесс light-locker-command"
+
+#: ../src/light-locker-command.c:70
+msgid "The calling application that is inhibiting the screensaver"
+msgstr "Вызов программы для предотвращения запуска хранителя экрана"
+
+#: ../src/light-locker-command.c:72
+msgid "The reason for inhibiting the screensaver"
+msgstr "Причина предотвращения запуска хранителя экрана"
+
+#: ../src/light-locker-command.c:74 ../src/light-locker.c:64
+#: ../src/preview.c:82
+msgid "Version of this application"
+msgstr "Версия этого приложения"
+
+#: ../src/light-locker-command.c:337
+#, c-format
+msgid "The screensaver is active\n"
+msgstr "Хранитель экрана активен\n"
+
+#: ../src/light-locker-command.c:339
+#, c-format
+msgid "The screensaver is inactive\n"
+msgstr "Хранитель экрана неактивен\n"
+
+#: ../src/light-locker-command.c:369
+#, c-format
+msgid "The screensaver has been active for %d second.\n"
+msgid_plural "The screensaver has been active for %d seconds.\n"
+msgstr[0] "Хранитель экрана был активен в течение %d секунды.\n"
+msgstr[1] "Хранитель экрана был активен в течение %d секунд.\n"
+msgstr[2] "Хранитель экрана был активен в течение %d секунд.\n"
+msgstr[3] "Хранитель экрана был активен в течение %d секунд.\n"
+
+#: ../src/light-locker-command.c:381
+#, c-format
+msgid "The screensaver is not currently active.\n"
+msgstr "В данный момент хранитель экрана неактивен.\n"
+
+#: ../src/light-locker-command.c:382
+#, c-format
+msgid "The session has been idle for %d second.\n"
+msgid_plural "The session has been idle for %d seconds.\n"
+msgstr[0] "Сессия была пустой в течение %d секунды.\n"
+msgstr[1] "Сессия была пустой в течение %d секунд.\n"
+msgstr[2] "Сессия была пустой в течение %d секунд.\n"
+msgstr[3] "Сессия была пустой в течение %d секунд.\n"
+
+#: ../src/light-locker-command.c:451
+#, c-format
+msgid "The screensaver has been inhibited with cookie %d\n"
+msgstr "Запуску хранителя экрана препятствует cookie %d\n"
+
+#: ../src/light-locker-command.c:555
+#, c-format
+msgid "Send uninhibit to the screensaver with cookie %d\n"
+msgstr "Прекратить предотвращение запуска хранителя экрана с помощью cookie %d\n"
+
+#: ../src/light-locker.c:65 ../src/preview.c:83
+msgid "Enable debugging code"
+msgstr "Включить режим отладки"
+
+#: ../src/light-locker.c:67
+msgid "Lock the screen S seconds after the screensaver started"
+msgstr "Заблокировать экран через S секунд после запуска хранителя экрана"
+
+#: ../src/light-locker.c:69
+msgid "Lock the screen on screensaver deactivation"
+msgstr "Заблокировать экран при выключении хранителя экрана"
+
+#: ../src/light-locker.c:70
+msgid "Lock the screen on screensaver activation"
+msgstr "Заблокировать экран при включении хранителя экрана"
+
+#: ../src/light-locker.c:74 ../src/gs-listener-dbus.c:466
+msgid "Lock the screen on suspend/resume"
+msgstr "Заблокировать экран при спящем/ждущем режимах"
+
+#: ../src/light-locker.c:75
+msgid "Do not lock the screen on suspend/resume"
+msgstr "Не блокировать экран при спящем/ждущем режимах"
+
+#: ../src/light-locker.c:78
+msgid "Lock the screen on lid close"
+msgstr "Заблокировать экран при закрытии крышки ноутбука"
+
+#: ../src/light-locker.c:79
+msgid "Do not lock the screen on lid close"
+msgstr "Не блокировать экран при закрытии крышки ноутбука"
+
+#: ../src/light-locker.c:81
+msgid "Set idle hint during screensaver"
+msgstr "Задать пустую подсказку при активном хранителе экрана"
+
+#: ../src/light-locker.c:82
+msgid "Let something else handle the idle hint"
+msgstr "Разрешить другой программе удерживать пустую подсказку"
+
+#: ../src/light-locker.desktop.in.h:1 ../src/gs-listener-dbus.c:465
+msgid "Screen Locker"
+msgstr "Блокировщик экрана"
+
+#: ../src/light-locker.desktop.in.h:2
+msgid "Launch screen locker program"
+msgstr "Запустить программу блокировки экрана"
+
+#: ../src/gs-listener-dbus.c:1844
+msgid "failed to register with the message bus"
+msgstr "не удалось зарегистрировать с помощью шины передачи сообщений"
+
+#: ../src/gs-listener-dbus.c:1854
+msgid "not connected to the message bus"
+msgstr "не подключено к шине передачи сообщений"
+
+#: ../src/gs-listener-dbus.c:1863 ../src/gs-listener-dbus.c:1911
+msgid "screensaver already running in this session"
+msgstr "хранитель экрана уже запущен в данной сессии"
+
+#: ../src/gs-listener-dbus.c:1933
+msgid "GNOME screensaver already running in this session"
+msgstr "хранитель экрана GNOME уже запущен в данной сессии"
+
+#: ../src/gs-content.c:92
+msgid "This session is locked"
+msgstr "Сессия заблокирована"
+
+#: ../src/gs-content.c:114
+msgid ""
+"You'll be redirected to the unlock dialog automatically in a few seconds"
+msgstr "Вы будете перенаправлены на диалог разблокировки автоматически в течение нескольких секунд"
+
+#: ../src/preview.c:84
+msgid "Preview screen width"
+msgstr "Ширина экрана предпросмотра"
+
+#: ../src/preview.c:85
+msgid "Preview screen height"
+msgstr "Высота экрана предпросмотра"

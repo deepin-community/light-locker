@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Benoît Dejean <benoit@placenet.org>, 2006
+# Christophe Merlet <redfox@redfoxcenter.org>, 2006
+# Claude Paroz <claude@2xlibre.net>, 2010
+# Corentin Noël <tintou@mailoo.org>, 2014-2015
+# Davy Defaud <davy.defaud@posteasy.com>, 2005
+# Eric Maeker <eric.maeker@free.fr>, 2005
+# Jonathan Ernst <jonathan@ernstfamily.ch>, 2007
+# Maxime Gauduin <alucryd@gmail.com>, 2013,2015
+# Stéphane Raimbault <stephane.raimbault@gmail.com>, 2007
+# Yannick Le Guen <leguen.yannick@gmail.com>, 2014-2015
+msgid ""
+msgstr ""
+"Project-Id-Version: light-locker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-25 13:44+0100\n"
+"PO-Revision-Date: 2015-11-05 12:28+0000\n"
+"Last-Translator: Corentin Noël <tintou@mailoo.org>\n"
+"Language-Team: French (http://www.transifex.com/the_cavalry/light-locker/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../src/light-locker-command.c:56
+msgid "Query the state of the locker"
+msgstr "Connaître l'état du verrouilleur"
+
+#: ../src/light-locker-command.c:58
+msgid "Query the length of time the locker has been active"
+msgstr "Savoir depuis combien de temps le verrouilleur est actif"
+
+#: ../src/light-locker-command.c:60
+msgid "Tells the running locker process to lock the screen immediately"
+msgstr "Demande au verrouilleur en cours d'exécution de verrouiller l'écran immédiatement"
+
+#: ../src/light-locker-command.c:62
+msgid "Turn the screensaver on (blank the screen)"
+msgstr "Activer l'écran de veille (vider l'écran)"
+
+#: ../src/light-locker-command.c:64
+msgid "If the screensaver is active then deactivate it (un-blank the screen)"
+msgstr "Désactiver l'écran de veille s'il est actif (rétablir l'écran)"
+
+#: ../src/light-locker-command.c:66
+msgid "Poke the running locker to simulate user activity"
+msgstr "Réveiller le verrouilleur en cours d'exécution pour simuler une activité utilisateur"
+
+#: ../src/light-locker-command.c:68
+msgid ""
+"Inhibit the screensaver from activating. Terminate the light-locker-command "
+"process to end inhibition."
+msgstr "Inhiber l'activation de l'écran de veille. Arrêter le processus light-locker-command pour stopper l'inhibition."
+
+#: ../src/light-locker-command.c:70
+msgid "The calling application that is inhibiting the screensaver"
+msgstr "L'application qui inhibe l'écran de veille"
+
+#: ../src/light-locker-command.c:72
+msgid "The reason for inhibiting the screensaver"
+msgstr "La raison pour laquelle l'écran de veille est inhibé"
+
+#: ../src/light-locker-command.c:74 ../src/light-locker.c:64
+#: ../src/preview.c:82
+msgid "Version of this application"
+msgstr "Version de cette application"
+
+#: ../src/light-locker-command.c:337
+#, c-format
+msgid "The screensaver is active\n"
+msgstr "L'écran de veille est actif\n"
+
+#: ../src/light-locker-command.c:339
+#, c-format
+msgid "The screensaver is inactive\n"
+msgstr "L'écran de veille est inactif\n"
+
+#: ../src/light-locker-command.c:369
+#, c-format
+msgid "The screensaver has been active for %d second.\n"
+msgid_plural "The screensaver has been active for %d seconds.\n"
+msgstr[0] "L'écran de veille est actif depuis %d seconde.\n"
+msgstr[1] "L'écran de veille est actif depuis %d secondes.\n"
+
+#: ../src/light-locker-command.c:381
+#, c-format
+msgid "The screensaver is not currently active.\n"
+msgstr "L'écran de veille n'est actuellement pas actif.\n"
+
+#: ../src/light-locker-command.c:382
+#, c-format
+msgid "The session has been idle for %d second.\n"
+msgid_plural "The session has been idle for %d seconds.\n"
+msgstr[0] "La session est inactive depuis %d seconde.\n"
+msgstr[1] "La session est inactive depuis %d secondes.\n"
+
+#: ../src/light-locker-command.c:451
+#, c-format
+msgid "The screensaver has been inhibited with cookie %d\n"
+msgstr "L'écran de veille a été inhibé avec le cookie %d\n"
+
+#: ../src/light-locker-command.c:555
+#, c-format
+msgid "Send uninhibit to the screensaver with cookie %d\n"
+msgstr "Envoi d'un signal de désinhibition à l'écran de veille avec le cookie %d\n"
+
+#: ../src/light-locker.c:65 ../src/preview.c:83
+msgid "Enable debugging code"
+msgstr "Activer le code de débogage"
+
+#: ../src/light-locker.c:67
+msgid "Lock the screen S seconds after the screensaver started"
+msgstr "Verrouiller l'écran S secondes après le démarrage de l'écran de veille"
+
+#: ../src/light-locker.c:69
+msgid "Lock the screen on screensaver deactivation"
+msgstr "Verrouiller l'écran à la désactivation de l'écran de veille"
+
+#: ../src/light-locker.c:70
+msgid "Lock the screen on screensaver activation"
+msgstr "Verrouiller l'écran au démarrage de l'écran de veille"
+
+#: ../src/light-locker.c:74 ../src/gs-listener-dbus.c:466
+msgid "Lock the screen on suspend/resume"
+msgstr "Verrouiller l'écran lors de la mise en veille"
+
+#: ../src/light-locker.c:75
+msgid "Do not lock the screen on suspend/resume"
+msgstr "Ne pas verrouiller l'écran lors de la mise en veille"
+
+#: ../src/light-locker.c:78
+msgid "Lock the screen on lid close"
+msgstr "Verrouiller l'écran lors du rabat de l'écran"
+
+#: ../src/light-locker.c:79
+msgid "Do not lock the screen on lid close"
+msgstr "Ne pas verrouiller l'écran lors du rabat de l'écran"
+
+#: ../src/light-locker.c:81
+msgid "Set idle hint during screensaver"
+msgstr "Émettre un signal d'inactivité pendant l'économiseur d'écran"
+
+#: ../src/light-locker.c:82
+msgid "Let something else handle the idle hint"
+msgstr "Laisser autre chose gérer le signal d'inactivité"
+
+#: ../src/light-locker.desktop.in.h:1 ../src/gs-listener-dbus.c:465
+msgid "Screen Locker"
+msgstr "Verrouilleur d'écran"
+
+#: ../src/light-locker.desktop.in.h:2
+msgid "Launch screen locker program"
+msgstr "Lancer le verrouilleur d'écran"
+
+#: ../src/gs-listener-dbus.c:1844
+msgid "failed to register with the message bus"
+msgstr "connexion au bus de message échouée"
+
+#: ../src/gs-listener-dbus.c:1854
+msgid "not connected to the message bus"
+msgstr "non connecté au bus de message"
+
+#: ../src/gs-listener-dbus.c:1863 ../src/gs-listener-dbus.c:1911
+msgid "screensaver already running in this session"
+msgstr "écran de veille déjà en cours d'exécution dans cette session"
+
+#: ../src/gs-listener-dbus.c:1933
+msgid "GNOME screensaver already running in this session"
+msgstr "L'écran de veille GNOME est déjà démarré sur cette session"
+
+#: ../src/gs-content.c:92
+msgid "This session is locked"
+msgstr "Cette session est verrouillée"
+
+#: ../src/gs-content.c:114
+msgid ""
+"You'll be redirected to the unlock dialog automatically in a few seconds"
+msgstr "Vous serez redirigé automatiquement vers la fenêtre de déverrouillage dans quelques secondes"
+
+#: ../src/preview.c:84
+msgid "Preview screen width"
+msgstr "Aperçu de la largeur de l'écran"
+
+#: ../src/preview.c:85
+msgid "Preview screen height"
+msgstr "Aperçu de la hauteur de l'écran"

@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2015
+# Pasi Lallinaho <pasi@shimmerproject.org>, 2014-2016
+# Timo Jyrinki <timo.jyrinki@iki.fi>, 2008
+# Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2005,2009,2011
+msgid ""
+msgstr ""
+"Project-Id-Version: light-locker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-25 13:44+0100\n"
+"PO-Revision-Date: 2016-01-13 01:19+0000\n"
+"Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
+"Language-Team: Finnish (http://www.transifex.com/the_cavalry/light-locker/language/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/light-locker-command.c:56
+msgid "Query the state of the locker"
+msgstr "Tiedustele lukitusohjelman tilaa"
+
+#: ../src/light-locker-command.c:58
+msgid "Query the length of time the locker has been active"
+msgstr "Tiedustele aikaa, jonka lukitusohjelma on ollut aktiivinen"
+
+#: ../src/light-locker-command.c:60
+msgid "Tells the running locker process to lock the screen immediately"
+msgstr "Kertoo käynnissä olevalle lukitusohjelmalle, että sen täytyy lukita näyttö heti"
+
+#: ../src/light-locker-command.c:62
+msgid "Turn the screensaver on (blank the screen)"
+msgstr "Käynnistä näytönsäästäjä (tyhjennä ruutu)"
+
+#: ../src/light-locker-command.c:64
+msgid "If the screensaver is active then deactivate it (un-blank the screen)"
+msgstr "Jos näytönsäästäjä on käytössä, kytke se pois päältä (poista ruudun tyhjennys)"
+
+#: ../src/light-locker-command.c:66
+msgid "Poke the running locker to simulate user activity"
+msgstr "Töki käynnissä olevaa lukitusohjelmaa simuloidaksesi käyttäjän toimia"
+
+#: ../src/light-locker-command.c:68
+msgid ""
+"Inhibit the screensaver from activating. Terminate the light-locker-command "
+"process to end inhibition."
+msgstr "Estä näytönsäästäjää aktivoitumasta. Lopeta light-locker-command -prosessi päättääksesi eston."
+
+#: ../src/light-locker-command.c:70
+msgid "The calling application that is inhibiting the screensaver"
+msgstr "Sovellus, joka estää näytönsäästäjän"
+
+#: ../src/light-locker-command.c:72
+msgid "The reason for inhibiting the screensaver"
+msgstr "Syy näytönsäästäjän estämiseen"
+
+#: ../src/light-locker-command.c:74 ../src/light-locker.c:64
+#: ../src/preview.c:82
+msgid "Version of this application"
+msgstr "Tämän ohjelman versio"
+
+#: ../src/light-locker-command.c:337
+#, c-format
+msgid "The screensaver is active\n"
+msgstr "Näytönsäästäjä on aktiivinen\n"
+
+#: ../src/light-locker-command.c:339
+#, c-format
+msgid "The screensaver is inactive\n"
+msgstr "Näytönsäästäjä ei ole aktiivinen\n"
+
+#: ../src/light-locker-command.c:369
+#, c-format
+msgid "The screensaver has been active for %d second.\n"
+msgid_plural "The screensaver has been active for %d seconds.\n"
+msgstr[0] "Näytönsäästäjä on ollut aktiivinen %d sekunnin.\n"
+msgstr[1] "Näytönsäästäjä on ollut aktiivinen %d sekuntia.\n"
+
+#: ../src/light-locker-command.c:381
+#, c-format
+msgid "The screensaver is not currently active.\n"
+msgstr "Näytönsäästäjä ei ole juuri nyt aktiivinen.\n"
+
+#: ../src/light-locker-command.c:382
+#, c-format
+msgid "The session has been idle for %d second.\n"
+msgid_plural "The session has been idle for %d seconds.\n"
+msgstr[0] "Tämä istunto on ollut jouten %d sekunnin.\n"
+msgstr[1] "Tämä istunto on ollut jouten %d sekuntia.\n"
+
+#: ../src/light-locker-command.c:451
+#, c-format
+msgid "The screensaver has been inhibited with cookie %d\n"
+msgstr "Näytönsäästäjä estettiin evästeellä %d\n"
+
+#: ../src/light-locker-command.c:555
+#, c-format
+msgid "Send uninhibit to the screensaver with cookie %d\n"
+msgstr "Lähetä estonpoistokomento näytönsäästäjälle evästeellä %d\n"
+
+#: ../src/light-locker.c:65 ../src/preview.c:83
+msgid "Enable debugging code"
+msgstr "Käytä debuggauskoodia"
+
+#: ../src/light-locker.c:67
+msgid "Lock the screen S seconds after the screensaver started"
+msgstr "Lukitse näyttö S sekuntia näytönsäästäjän käynnistämisen jälkeen"
+
+#: ../src/light-locker.c:69
+msgid "Lock the screen on screensaver deactivation"
+msgstr "Lukitse näyttö kun näytönsäästäjä lopetetaan"
+
+#: ../src/light-locker.c:70
+msgid "Lock the screen on screensaver activation"
+msgstr "Lukitse näyttö kun näytönsäästäjä käynnistetään"
+
+#: ../src/light-locker.c:74 ../src/gs-listener-dbus.c:466
+msgid "Lock the screen on suspend/resume"
+msgstr "Lukitse näyttö keskeytystilassa"
+
+#: ../src/light-locker.c:75
+msgid "Do not lock the screen on suspend/resume"
+msgstr "Älä lukitse näyttöä keskeytystilassa"
+
+#: ../src/light-locker.c:78
+msgid "Lock the screen on lid close"
+msgstr "Lukitse näyttö kun kansi suljetaan"
+
+#: ../src/light-locker.c:79
+msgid "Do not lock the screen on lid close"
+msgstr "Älä lukitse näyttöä kun kansi suljetaan"
+
+#: ../src/light-locker.c:81
+msgid "Set idle hint during screensaver"
+msgstr "Aseta joutokäyntivirhe näytönsäästäjän aikana"
+
+#: ../src/light-locker.c:82
+msgid "Let something else handle the idle hint"
+msgstr "Anna jonkin muun prosessin hoitaa joutokäyntivihje"
+
+#: ../src/light-locker.desktop.in.h:1 ../src/gs-listener-dbus.c:465
+msgid "Screen Locker"
+msgstr "Näytön lukitusohjelma"
+
+#: ../src/light-locker.desktop.in.h:2
+msgid "Launch screen locker program"
+msgstr "Käynnistä näytön lukitusohjelma"
+
+#: ../src/gs-listener-dbus.c:1844
+msgid "failed to register with the message bus"
+msgstr "rekisteröinti viestiväylän kanssa epäonnistui"
+
+#: ../src/gs-listener-dbus.c:1854
+msgid "not connected to the message bus"
+msgstr "ei yhteyttä viestiväylään"
+
+#: ../src/gs-listener-dbus.c:1863 ../src/gs-listener-dbus.c:1911
+msgid "screensaver already running in this session"
+msgstr "näytönsäästäjä on jo päällä tässä istunnossa"
+
+#: ../src/gs-listener-dbus.c:1933
+msgid "GNOME screensaver already running in this session"
+msgstr "GNOME-näytönsäästäjä on jo päällä tässä istunnossa"
+
+#: ../src/gs-content.c:92
+msgid "This session is locked"
+msgstr "Tämä istunto on lukittu"
+
+#: ../src/gs-content.c:114
+msgid ""
+"You'll be redirected to the unlock dialog automatically in a few seconds"
+msgstr "Sinut ohjataan lukituksen poistoon automaattisesti muutamassa sekunnissa"
+
+#: ../src/preview.c:84
+msgid "Preview screen width"
+msgstr "Esikatseluikkunan leveys"
+
+#: ../src/preview.c:85
+msgid "Preview screen height"
+msgstr "Esikatseluikkunan korkeus"

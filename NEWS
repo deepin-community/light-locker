@@ -1,0 +1,102 @@
+==============
+Version  1.8.0
+==============
+
+- Build against newer systemd
+- Added information for debugging
+- Proper exit codes for light-locker-command
+- Translations update
+
+
+==============
+Version  1.7.0
+==============
+
+- Use lid status for locking and VT switching
+- Use systemd suspend delay to lock on suspend
+- Set systemd IdleHint
+- More small changes
+- Translations update
+- New translations
+
+
+==============
+Version  1.6.0
+==============
+
+- DBus compatibility with KDE and Gnome
+- Optionally execute command with lock inhibition taken
+- Man page update
+- Translations update
+- New translations
+
+
+==============
+Version  1.5.1
+==============
+
+- Added gsettings backend to store light-locker configuration
+- Translations update
+
+
+==============
+Version  1.5.0
+==============
+
+- Added DBus interface to communicate with the running light-locker
+- New translations
+
+
+==============
+Version  1.4.0
+==============
+
+- Man pages update
+- Translations update
+
+
+==============
+Version  1.3.0
+==============
+
+- Added late locking support
+- Made lock on suspend optional
+
+
+==============
+Version  1.2.1
+==============
+
+- light-locker-command checks if light-locker is running (linux only)
+- Translations update
+
+
+==============
+Version  1.2.0
+==============
+
+- Delay VT switch 1s after resuming from suspend
+- Translations update
+
+
+==============
+Version  1.1.0
+==============
+
+- Lock the session after the X11 screen saver kicks in
+
+
+==============
+Version  1.0.0
+==============
+
+- Auto start light-locker
+
+
+==============
+Version  0.1.0
+==============
+
+- Fork gnome-screensaver 3.6.1
+- Strip out gnome-dependencies
+- Add basic locking functionality with lightdm as lockscreen

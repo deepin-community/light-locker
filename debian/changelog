@@ -1,0 +1,141 @@
+light-locker (1.8.0-3) unstable; urgency=medium
+
+  * d/patches: fallback to XDG_SESSION_ID if sd_session_id is NULL
+    (closes: #892290)
+  * d/patches: print an error if session_id is NULL
+  * d/control: update standards version to 4.3.0
+  * drop consolekit support since it's not in Debian anymore
+  * d/docs: add upstream README (closes: #920666)
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Mon, 28 Jan 2019 14:18:26 +0100
+
+light-locker (1.8.0-2) unstable; urgency=medium
+
+  * Moved the package to git on salsa.debian.org
+  * Updated the maintainer address to debian-xfce@lists.debian.org
+                                                                closes: #899591
+  * d/gbp.conf added, following DEP-14
+  * d/control: drop Simon and Emanuele from uploaders, thanks!
+  * d/control: drop duplicate section field
+  * d/control: update standards versions to 4.2.1
+  * d/copyright: use HTTPS protocol
+  * debhelper compat updated to 10
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sun, 07 Oct 2018 13:43:40 +0200
+
+light-locker (1.8.0-1) unstable; urgency=medium
+
+  * New upstream release.
+    - handle properly exit codes, especially when light-locker is not running.
+                                                                closes: #870207
+  * debian/patches:
+    - 01_migrate-libsystemd-dev dropped, included upstream.
+  * debian/control:
+    - update standards version to 4.0.0.
+    - run wrap-and-sort.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Mon, 31 Jul 2017 15:31:04 +0200
+
+light-locker (1.7.0-4) unstable; urgency=medium
+
+  * debian/rules:
+    - only configure systemd support on Linux arches.           closes: #832485
+  * debian/control:
+    - Evgeny removed itself as Uploaders, thanks for the work.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Fri, 10 Feb 2017 16:11:56 +0100
+
+light-locker (1.7.0-3) unstable; urgency=medium
+
+  [ Jackson Doak ]
+  * debian/control:
+    - Remove duplicate build-depend on libsystemd-dev
+
+  [ Yves-Alexis Perez ]
+  * debian/control:
+    - Make libsystemd-dev build-dep linux-any, fix builds on non Linux
+      arches. thanks Steven Chamberlain.                        closes: #816328 
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Fri, 04 Mar 2016 15:41:38 +0100
+
+light-locker (1.7.0-2) unstable; urgency=medium
+
+  * debian/control:
+    - replace libsystemd-login-dev by libsystemd-dev.           closes: #805437
+  * debian/patches:
+    - 01_migrate-libsystemd-dev, check for libsystemd instead of
+      libsystemd-login.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Wed, 18 Nov 2015 21:19:47 +0100
+
+light-locker (1.7.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/patches:
+    - 01_lid-closed and 02_libsystemd dropped, included upstream.
+  * debian/control:
+    - add build-dep on libsystemd-login-dev.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Wed, 11 Nov 2015 11:45:02 +0100
+
+light-locker (1.6.0-4) unstable; urgency=medium
+
+  * debian/patches:
+    - 02_libsystemd added, build against libsystemd, patch from Michael Biebl.
+                                                                closes: #779749
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Wed, 22 Jul 2015 22:22:42 +0200
+
+light-locker (1.6.0-3) unstable; urgency=medium
+
+  * debian/patches:
+    - 01_lid-closed added, try to properly handle lock on lid closed in some
+    corner cases.                                               closes: #788668
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sun, 21 Jun 2015 11:18:03 +0200
+
+light-locker (1.6.0-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Wed, 06 May 2015 22:52:10 +0200
+
+light-locker (1.6.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * debian/control:
+    - update standards version to 3.9.6.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sun, 08 Mar 2015 22:34:06 +0100
+
+light-locker (1.4.0-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sat, 09 Aug 2014 10:40:35 +0200
+
+light-locker (1.4.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * debian/copyright:
+    - add manpages copyright and license
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sat, 09 Aug 2014 10:14:15 +0200
+
+light-locker (1.3.0-1) experimental; urgency=medium
+
+  * New upstream development release.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sun, 16 Mar 2014 16:08:20 +0100
+
+light-locker (1.2.0-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Sun, 09 Mar 2014 10:47:14 +0100
+
+light-locker (1.1.0-1) experimental; urgency=low
+
+  * Initial release.                                            closes: #730827
+
+ -- Yves-Alexis Perez <corsac@debian.org>  Thu, 23 Jan 2014 21:09:09 +0100

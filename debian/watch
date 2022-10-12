@@ -1,0 +1,3 @@
+version=3
+https://github.com/the-cavalry/light-locker/releases/ \
+  /the-cavalry/light-locker/releases/download/.*/light-locker-(\d\.\d\.\d)\.tar\.(?:gz|bz2)
